@@ -57,14 +57,14 @@
           ></i>
           <a class="text-3xl font-bold" href="#">Rinterio</a>
         </div>
-        <div class="flex flex-1 space-x-4">
+        <div class="lg:flex flex-1 hidden space-x-4">
           <a class="font-bold" href="#">Home </a>
           <a class="text-gray-500" href="#">Service </a>
           <a class="text-gray-500" href="#">Portfolio</a>
           <a class="text-gray-500" href="#">Blog</a>
           <a class="text-gray-500" href="#">Contact Us</a>
         </div>
-        <div class="flex flex-1 items-center space-x-4">
+        <div class="lg:flex flex-1 hidden items-center space-x-4">
           <div>
             <i class="fa-solid fa-magnifying-glass-location bg-[#FFFFFF]"></i>
           </div>
@@ -81,7 +81,35 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <!-- banner section -->
+      <section class="my-24">
+        <div class="hero bg-base-200">
+          <div class="hero-content text-center flex flex-col">
+            <div class="max-w-xl"><img src="./assets/banner.png" alt="" /></div>
+            <div class="max-w-6xl">
+              <h1 class="text-6xl font-extrabold">
+                A barn house of this design has a striking appearance
+              </h1>
+              <p class="py-6 max-w-4xl mx-auto">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents, and large windows that flood the space with natural
+                light.
+              </p>
+              <button
+                class="btn my-8 px-5 rounded-3xl border-[1px] border-[#ABEF5F] font-bold bg-[#ABEF5F80]"
+              >
+                View Details
+                <i
+                  class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-2 rounded-full"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
